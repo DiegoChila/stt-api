@@ -43,6 +43,8 @@ app.get('/rymrandom', (req, res) => {
             });
         });
 
+        console.log('Esto es una prueba');
+
         
         charactersAvailable.forEach(charAvailable => {
             if (charAvailable.id == charId) charAvailable.lastPetition = new Date();
